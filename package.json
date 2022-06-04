@@ -1,0 +1,16 @@
+{
+  "name": "curious-admin-panel",
+  "version": "1.0.0",
+  "author": "Curious (https://t.me/curious_33)",
+  "description": "This is a private admin panel of Curious. If you find it anywhere and want to use it, please ask first(https://t.me/curious_33)",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "keywords": [
+    "admin-panel",
+    "curious",
+    "template"
+  ],
+  "license": "ISC"
+}

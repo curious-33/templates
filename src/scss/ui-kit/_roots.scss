@@ -1,0 +1,11 @@
+:root {
+  /* light theme colors */
+  @each $key, $value in $light-theme {
+    --light-theme-#{""+$key}: #{$value};
+  }
+
+  /* dark theme colors */
+  @each $key, $value in $dark-theme {
+    --dark-theme-#{""+$key}: #{$value};
+  }
+}

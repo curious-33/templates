@@ -1,0 +1,39 @@
+@import "sidebar";
+@import "page-container";
+
+body.light {
+  background-color: var(--light-theme-background);
+  color: var(--light-theme-blue);
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+// dark theme
+body.dark {
+  background-color: var(--dark-theme-background);
+  color: var(--dark-theme-white);
+}
+
+.dark {
+  .side-nav {
+    background-color: var(--dark-theme-dark-blue);
+  }
+}
+
+/* Styles for users who prefer dark mode at the OS level */
+// @media (prefers-color-scheme: dark) {
+//   body {
+//     background-color: var(--dark-theme-background);
+//     color: var(--dark-theme-white);
+//   }
+// }
+
+// @media (prefers-color-scheme: light) {
+//   body {
+//     background-color: var(--light-theme-background);
+//     color: var(--light-theme-blue);
+//   }
+// }

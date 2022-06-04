@@ -1,0 +1,54 @@
+$dark-theme: (
+  primary: #7551ff,
+  background: #0b1437,
+  light-blue: #39b8ff,
+  blue: #3965ff,
+  dark-blue: #111c44,
+  success: #05cd99,
+  warning: #ffce20,
+  danger: #ee5d50,
+  red: #e31a1a,
+  orange: #ffb547,
+  green: #01b574,
+  white: #ffffff,
+  black: #000000,
+) !default;
+
+$light-theme: (
+  primary: #4318ff,
+  secondary: #a3aed0,
+  background: #f4f7fe,
+  blue: #2b3674,
+  dark-blue1: #11047a,
+  dark-blue2: #1b2559,
+  success: #05cd99,
+  warning: #ffce20,
+  danger: #ee5d50,
+  red: #e31a1a,
+  orange: #ffb547,
+  green: #01b574,
+  white: #ffffff,
+  black: #000000,
+) !default;
+
+$primary-font-family: "DM Sans", sans-serif;
+
+$font-weights: (
+  "light": 300,
+  "regular": 400,
+  "medium": 500,
+  "semi-bold": 600,
+  "bold": 700,
+  "extra-bold": 800,
+  "black": 900,
+) !default;
+
+$opacity-1: rgba(255, 255, 255, 0.1) !default;
+$opacity-2: rgba(255, 255, 255, 0.2) !default;
+$opacity-3: rgba(255, 255, 255, 0.3) !default;
+$opacity-4: rgba(255, 255, 255, 0.4) !default;
+$opacity-5: rgba(255, 255, 255, 0.5) !default;
+$opacity-6: rgba(255, 255, 255, 0.6) !default;
+$opacity-7: rgba(255, 255, 255, 0.7) !default;
+$opacity-8: rgba(255, 255, 255, 0.8) !default;
+$opacity-9: rgba(255, 255, 255, 0.9) !default;
